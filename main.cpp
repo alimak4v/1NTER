@@ -66,7 +66,7 @@ int main() {
 
     {
         std::ifstream file_code;
-        file_code.open("/Users/sinicynaleksej/CLionProjects/untitled8/workwords");
+        file_code.open("/Users/sinicynaleksej/CLionProjects/1NTER/workwords");
         if (file_code.is_open()) {
             cout << "файл открылся" << endl;
             string ln;
@@ -83,7 +83,7 @@ int main() {
 
     {
         std::ifstream file_code;
-        file_code.open("/Users/sinicynaleksej/CLionProjects/untitled8/code.mop");
+        file_code.open("/Users/sinicynaleksej/CLionProjects/1NTER/code.mop");
         if (file_code.is_open()) {
             cout << "файл открылся" << endl;
             string ln;
