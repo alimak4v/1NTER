@@ -62,11 +62,12 @@ private:
 };
 
 int main() {
+    cout << "бляяя" << endl;
     Bor working_system;
 
     {
         std::ifstream file_code;
-        file_code.open("/Users/sinicynaleksej/CLionProjects/1NTER/workwords");
+        file_code.open("/Users/sinicynaleksej/1NTER/workwords");
         if (file_code.is_open()) {
             cout << "файл открылся" << endl;
             string ln;
@@ -83,7 +84,7 @@ int main() {
 
     {
         std::ifstream file_code;
-        file_code.open("/Users/sinicynaleksej/CLionProjects/1NTER/code.mop");
+        file_code.open("/Users/sinicynaleksej/1NTER/code.mop");
         if (file_code.is_open()) {
             cout << "файл открылся" << endl;
             string ln;
